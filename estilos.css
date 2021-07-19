@@ -1,15 +1,28 @@
+/* font-family: 'Abril Fatface', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Playfair Display', serif; */
 
 body{
-    background-color: rgba(90, 90, 90, .2);
+    background: #c9c1c1;
+    background: linear-gradient(290deg,#c9c1c1 0%, #f2f5ff 80%);
 }
 
 h1{
-    color: #fff;
-    background-color:#000;
+    font-family: 'Abril Fatface', cursive;
+    color: #405959;
+    background-color: rgba(132,224,185,0.29);
     text-align: center;
     font-size: 40px;
+    border-radius: 90px;
+
     
     
+}
+
+img{display: block;
+    margin: 0 auto;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 0 0 50px 0;
 }
 
 .subtitulo1{
@@ -30,16 +43,20 @@ h1{
     color: #285A8B;
     font-style: italic;
     text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .peliculas{
     color: #780C32;
     font-style: italic;
     text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
 }
 
 h4{
-    font-size: 20px;
+    font-size: 30px;
+    text-shadow: 6px 0px 8px rgba(0,0,0,0.54);
+
 }
 
 footer{
@@ -50,5 +67,22 @@ footer{
 }
 
 p{
-    font-size: 18px;
+    font-size: 23px;
+    font-family: 'Playfair Display', serif;
+}
+
+.icono{
+    font-size: 30px;
+    
+}
+
+.contenedor{
+    margin: 0 auto;
+    width: 250px;
+    background-color: #c9c1c1;
+    border-radius: 5px;
+}
+i{
+    margin: 20px;
+    font-size: 40px;
 }
